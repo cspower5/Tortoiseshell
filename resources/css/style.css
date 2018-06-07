@@ -1,0 +1,66 @@
+html{
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+/* Universal Styles */
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: "Helvetica", sans-serif;
+  line-height: 1.4;
+  border: 3px solid;
+}
+text{
+  font-size: 1rem;
+  color: white;
+  margin-left: 1rem;
+}
+
+h1,
+h4 {
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2rem;
+}
+a{
+  color: white;
+  margin-left: 2rem;
+}
+.Main{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  flex-grow: 1;
+  background-image: url("../images/glasses-bg.png");
+  background-size: cover;
+  height: 30rem;
+}
+.Banner1{
+  display: flex;
+  align-self: center;
+  background-color: cadetblue;
+  width: 960px;
+  margin-top: 1rem;
+  padding: 1rem 2rem;
+}
+.Banner1 img{
+  height: 1.5rem;
+}
+.Banner2{
+  background-color: White;
+  padding: 1.5rem 5rem;
+  margin-top: 10rem;
+}
+.navigation{
+  display: flex;
+  align-self: flex-end;
+}
+.title{
+  display flex;
+  align-self: flex-start;
+}

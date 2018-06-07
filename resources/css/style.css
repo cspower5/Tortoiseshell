@@ -34,10 +34,12 @@ a{
 .Container{
   display: flex;
   flex-direction: column;
-  align-self: center;
   width: 960px;
 }
 .Photo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-image: url("../images/glasses-bg.png");
   background-size: cover;
   height: 30rem;
@@ -50,15 +52,17 @@ a{
   width: 100%;
   margin-top: 1rem;
   padding: 1rem 2rem;
+  margin-right: 2rem;
 }
 .Banner1 img{
   height: 1.5rem;
 }
 .Banner2{
+  display: flex;
+  align-self: flex-end;
   background-color: White;
   padding: 1.5rem 5rem;
   margin-top: 10rem;
-  margin-right: 15rem;
 }
 .navigation{
   display: flex;

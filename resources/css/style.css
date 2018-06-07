@@ -31,20 +31,23 @@ a{
   color: white;
   margin-left: 2rem;
 }
-.Main{
+.Container{
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
-  flex-grow: 1;
+  align-self: center;
+  width: 960px;
+}
+.Photo{
   background-image: url("../images/glasses-bg.png");
   background-size: cover;
   height: 30rem;
 }
 .Banner1{
   display: flex;
+  justify-content: space-between;
   align-self: center;
   background-color: cadetblue;
-  width: 960px;
+  width: 100%;
   margin-top: 1rem;
   padding: 1rem 2rem;
 }
@@ -55,6 +58,7 @@ a{
   background-color: White;
   padding: 1.5rem 5rem;
   margin-top: 10rem;
+  margin-right: 15rem;
 }
 .navigation{
   display: flex;

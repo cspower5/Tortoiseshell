@@ -166,3 +166,9 @@ a{
   height: 1.5rem;
   margin-right: 1rem;
 }
+@media only screen and (max-width: 1024px) {
+  .Photo{
+    position: static;
+    margin-top: 0 auto;
+  }
+}
